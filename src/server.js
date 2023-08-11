@@ -34,5 +34,5 @@ app.use(( error, request, response, next ) => {
 
 });
 
-const PORT = 5173;// Definindo endereço da porta
+const PORT = 3333;// Definindo endereço da porta
 app.listen(PORT, () => console.log(`Serve is running on Port ${PORT}`));// Com o listen() fazemos o "app" sempre ficar ouvindo(atento) o PORT e seu endereço
